@@ -1,0 +1,183 @@
+body{
+    font-family: 'Nunito';
+    /* animation: kenburns-top 5s ease-out both; */
+
+}
+  
+#btn1{
+  width: max-content;
+  float: right;
+  margin-left: 262px;
+  border-radius: 40rem;
+  border-width: 4px;
+  background-color: lightcoral;
+  font-weight: bold;
+}
+
+h2{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#mario-chat{
+    max-width: 600px;
+    margin: 30px auto;
+    border: 5px solid rgba(255, 17, 17, 0);
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 1.4rem;
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
+
+#chat-window{
+    height: 300px;
+    overflow: auto;
+    /* background: #1c2168; */
+    /* background: #94c1ea; */
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    /* border-bottom: 1px solid #000000; */
+    color: rgb(255, 255, 255);
+   background-color: rgb(2 18 62) ;
+      margin-top: 9px;
+    border-radius: 1.5em;
+}
+
+#feedback p{
+    color: rgb(255, 255, 255);
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #ffffff;
+    margin: 0.6rem;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    /* border: 0; */
+    display: inline-flex;
+    width: 97%;
+    background: #d2d2d2;
+    border: 1px solid #000;
+    font-family: Nunito;
+    font-size: 16px;
+    color: black;
+    margin: 4px;
+    margin-bottom: 0.8rem;
+}
+/* 
+button{
+    background: #5eff00;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 70%;
+    align-items: center;
+    border-radius: 0 0 2px 2px;
+} */
+
+button{
+  background-color: #0c58e275;
+    /* background-color: #1c2168; */
+    /* margin: 1em; */
+    font-size: 20px;
+    /* border: 0; */
+    padding: 12px 0;
+    width: 72%;
+    border-radius: 4rem;
+    /* margin-left: 450px; */
+    color: rgb(255 255 255);
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+    cursor: pointer;
+    /* margin-left: 30%; */
+    /* margin-bottom: 7px; */
+    margin-top: 20px;
+    
+}
+
+.slide-in-blurred-top {
+	-webkit-animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+.color-change-4x {
+	-webkit-animation: color-change-4x 6s linear infinite alternate both;
+	        animation: color-change-4x 6s linear infinite alternate both;
+}
+
+@keyframes color-change-4x {
+  0% {
+    background: #bafaba;
+  }
+  33.3333% {
+    background: #ebffa3;
+  }
+  66.666% {
+    background: #c3f6ff;
+  }
+  100% {
+    background: #ffbbbb;
+  }
+}
+.slide-in-elliptic-bottom-fwd {
+	-webkit-animation: slide-in-elliptic-bottom-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-bottom-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-elliptic-bottom-fwd {
+    0% {
+      -webkit-transform: translateY(600px) rotateX(30deg) scale(0);
+              transform: translateY(600px) rotateX(30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% -1400px;
+              transform-origin: 50% -1400px;
+      opacity: 1;
+    }
+  }
+  
+  
